@@ -1,0 +1,6 @@
+# Optional AI backends. The app starts without these packages.
+ultralytics>=8.3.0
+mediapipe>=0.10.14
+faster-whisper>=1.0.3
+sounddevice>=0.5.0
+torch>=2.4.0

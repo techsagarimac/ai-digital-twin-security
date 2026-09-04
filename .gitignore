@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env and secrets
+.env
+.env.local
+*.pem
+
+# Data and models (keep README placeholders)
+data/recordings/*
+data/events/*
+data/reconstructions/*
+data/uploads/*
+data/audio/*
+!data/**/.gitkeep
+*.db
+*.db-journal
+models/*.pt
+models/*.onnx
+models/*.task
+models/*.tflite
+!models/README.md
+!models/face_detection_yunet_2023mar.onnx
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Uploads
+backend/uploads/
